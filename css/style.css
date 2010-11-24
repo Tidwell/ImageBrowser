@@ -1,0 +1,99 @@
+#nav {
+  float: left;
+  width: 300px;
+  position: relative;
+  padding: 20px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+
+#nav, #nav ul, #nav li {
+
+}
+
+.loading {
+  display: none;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  margin-left: -100px;
+  background: white;
+  font-size: 40px;
+}
+#preview{
+  float: left;
+  margin: 20px;
+}
+#preview ul {
+  margin-top: 10px;
+  
+}
+#preview ul li {
+  margin: 5px 0;
+  clear: both;
+  overflow: hidden;
+}
+#preview ul li span,
+#preview li.closed span {
+    line-height: 150px;
+    display: block;
+    float: left;
+    cursor: pointer !important;
+}
+#preview ul li img {
+  margin-right: 10px;
+  float: left;
+  display: block;
+}
+#preview ul li input {
+  display: block;
+  width: 2em;
+  height: 2em;
+  margin-top: 62px;
+  float: left;
+}
+form input:nth-child(1) {
+  width: 200px;
+  margin: 0 10px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+  background: #ced6d4;
+  
+}
+
+#btnContainer {
+  background: white;
+  padding: 5px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+
+}
+
+.highlight_active {
+  background-color: #ccc !important;
+}
+
+li {
+  cursor:pointer !important;
+}
+
+li.check_selected {
+  background: #fff39c;
+}
+#btnContainer ul li:hover {
+  border-bottom: 1px solid;
+  color: blue;
+}
